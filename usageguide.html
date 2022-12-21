@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head >
+    <style>
+      body, html {
+        height: 100%;
+        margin: 0;
+      }
+      
+      .bg {
+        /* The image used */
+        background-image: url("bgmain.jpg");
+      
+        /* Full height */
+        height: 100%; 
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weather app | Usage Guide</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="bg"> 
+    
+    <nav class="navbar navbar-expand-lg bg-light" >
+      <div class="container-fluid"           style="background-color: #ffe6e6">
+        <a class="navbar-brand" href="#" ;>Weather App 🌈</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About this App</a>
+            </li>
+
+            <li class="nav-item"> 
+              <a class="nav-link" href="loginpage.html"> Login/Sign-Up </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="usageguide.html">Usage Guide</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input id="city"
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit" id="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <h4> How to use this Weather App ?</h4>
+
+    <p> In the Home Page the Website already shows the weather of Bangalore as default, <br>
+         As you may see on the top right corner of Home page there's a search bar, you can check weather <br>
+        for your favorite city and get all the details of that particular city.  </p>
+
+        <h4> What is the component used to show weather data ?</h4>
+        <p> <b> RapidAPI</b> - We've used an API to make the main part of this project work and run smooth <br>
+        It is an API which gives 96% of accuracy While showing the realtime weather information</p>
+
+        <h4> Where is the Login or Sign-Up data stored ?</h4>
+        <p> It is stored in a database, the collected data is actually just used for the validation <br>
+        purpose and is stored on <b> XAMPP SERVER </b>to give personalised weather Information. </p>
+
+        <h4> We hope y'all liked our project ! Sit patiently many freatures are awaiting <br>
+            to be tested and deployed.</h4>
+
+        </div>
+        <footer align="center">
+            <h5> Developed with ❤</h5> </footer>
+            <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"
+          ></script>
+    <script src="script.js"></script>
+  </body>
+</div>
+</html>
